@@ -60,7 +60,10 @@ class HadethViewState extends State<HadethView> {
       HadithData hadithdata = HadithData(title: title, body: body);
       datalist.add(hadithdata);
     }
+    setState(() {});
+
   }
+
 }
 class HadithData {
 
