@@ -73,8 +73,8 @@ class _QuranDetailsViewState extends State<QuranDetailsView> {
     );
 
   }
-
   String content = "";
+
   List<String> versesList = [];
 
   Future<void> loadData(String surahNumber) async {

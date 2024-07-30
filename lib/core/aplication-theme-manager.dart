@@ -51,6 +51,7 @@ class AplicationThemeManager {
     ),
     dividerTheme: DividerThemeData(
       color: primaryColor,
+      space: 10,
     )
   );
 
